@@ -53,7 +53,7 @@
 </br></br></br>
 
 ## Sunucudan cevap gelene kadar kullanıcıya “yükleniyor” animasyonu gösterilmeli
-
+![search](https://github.com/oguzz0804/Case-Study-Flight-Search-Application/assets/68377756/4281b21c-c09f-43b6-876e-cd37bcf34505)
 
 </br></br></br>
 
