@@ -3,8 +3,8 @@
 ## Framework : React
 
 # Kalkış havaalanı, varış havaalanı, kalkış tarihi, dönüş tarihi seçilebilen bir arama kutusu yapılmalı
+![navbar](https://github.com/oguzz0804/Case-Study-Flight-Search-Application/assets/68377756/9a1a74ec-5240-4667-9eee-6ed080f64ad6)
 
-![navbar](/amadeus%20images/navbar.jpg)
 
 # “Tek yönlü uçuş” olduğunu belirten bir seçenek olmalı. Bu seçildiyse dönüş tarihi girilmemeli.
 
