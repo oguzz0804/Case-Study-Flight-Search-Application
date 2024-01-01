@@ -21,6 +21,11 @@
 ![datepicker kullanma](https://github.com/oguzz0804/Case-Study-Flight-Search-Application/assets/68377756/3478f528-3319-4bb0-afb5-181d9b965b1e)
 </br></br></br>
 
+## Dönüş tarihi ile verilerin çekişmesi
+
+![roundtrip](https://github.com/oguzz0804/Case-Study-Flight-Search-Application/assets/68377756/1084f635-ee6c-45aa-9b5c-4ec109b15949)
+</br></br></br>
+
 # Tüm alanların validasyonu yapılmalı
 
 ## Input değerleri boş ise
