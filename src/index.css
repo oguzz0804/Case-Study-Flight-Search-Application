@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: #efefef;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/denmark.jpg");
+  background-size: cover;
+}
+
+.App {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px 10px 0px 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid #333; */
+  box-shadow: 0px 0px 15px gray;
+}
+
+.Header {
+  width: 100%;
+  background-color: #3597af60;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+}
+
+.Header h1 {
+  font-size: 1.5rem;
+  font-family: "Rubik Doodle Shadow";
+}
+
+.Header svg {
+  font-size: 2rem;
+}
+
+.Footer {
+  border-radius: 0px 0px 10px 10px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  place-content: flex-start;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(76, 84, 86, 0.651);
+}
+.Footerdiv {
+  padding: 0.5rem;
+  font-family: "Rubik Doodle Shadow";
+  display: flex;
+  gap: 1rem;
+  place-content: flex-start;
+  color: #fff;
+  width: 100%;
+}
+.copy {
+  display: flex;
+  width: 100%;
+  place-content: flex-end;
+  font-size: 15px;
+  align-items: center;
+}
+
+.Footer-Home {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Footer-About {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Nav {
+  width: 100%;
+  height: 125px;
+  background-color: rgba(76, 84, 86, 0.651);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.input:hover {
+  border: 4px solid #040f0f;
+}
+.searchForm {
+  display: flex;
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+  gap: 0.3rem;
+}
+
+.handleButton {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  color: #fff;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: 20px solid #36eb4edc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.searchForm input[type="text"] {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  width: 125px;
+  min-height: 48px;
+  font-size: 0.6rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.Home .post a {
+  text-decoration: none;
+}
+
+.Home .post a,
+.Home .post a:visited {
+  color: #000;
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  margin: 1rem 0;
+}
+
+.newPostForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.newPostForm label {
+  margin-top: 1rem;
+}
+
+.newPostForm input[type="text"],
+.newPostForm textarea {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+.newPostForm textarea {
+  height: 100px;
+}
+
+.newPostForm button {
+  margin-top: 1rem;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Missing p,
+.PostPage p,
+.NewPost p {
+  margin-top: 1rem;
+}
+
+.PostPage button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: red;
+}
+
+.editButton {
+  background-color: #333;
+}
+
+.statusMsg {
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 800px) {
+  .button-container {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 22px;
+  }
+
+  .Header h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .searchForm {
+    padding: 0.5rem 0;
+  }
+
+  .searchForm .date-picker {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
+
+  .newPostForm textarea {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Header svg {
+    font-size: 3rem;
+  }
+}
+
+.button-container {
+  margin-top: -10px;
+}
+
+.radio-label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-text {
+  position: relative;
+  line-height: 2px;
+  font-family: "Times New Roman", Times, serif;
+  bottom: 15px;
+  right: 10px;
+  padding: 3px;
+  display: flex;
+
+  gap: 5px;
+  color: #fefefe;
+}
+
+.radio-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.radio-label.active:before {
+  background-color: #11d811;
+  border-color: #3498db;
+}
+
+.radio-label:hover:before {
+  border-color: #2980b9;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 3s linear infinite;
+  margin: 20px auto;
+}
+
+select {
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.airport-suggestions {
+  display: flex;
+  justify-content: flex-start;
+  width: 125px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 75px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.airport-suggestions {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.airport-suggestions div:hover {
+  background-color: #f2f2f2;
+}
+
+.selections {
+  position: absolute;
+  margin-top: 2.8rem;
+  margin-left: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  gap: 2.2rem;
+}

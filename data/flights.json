@@ -1,0 +1,191 @@
+{
+  "flights": [
+    {
+      "id": "TK123",
+      "airline": "Turkish Airlines",
+      "departureCity": "Istanbul",
+      "arrivalCity": "London",
+      "departureAirport": {
+        "name": "Istanbul Ataturk Airport",
+        "code": "IST"
+      },
+      "arrivalAirport": {
+        "name": "London Heathrow Airport",
+        "code": "LHR"
+      },
+      "departureDate": "01/01/2024 08:00",
+      "arrivalDate": "01/01/2024 10:30",
+      "price": 300.0
+    },
+    {
+      "id": "DL456",
+      "airline": "Delta Airlines",
+      "departureCity": "New York",
+      "arrivalCity": "San Francisco",
+      "departureAirport": {
+        "name": "John F. Kennedy International Airport",
+        "code": "JFK"
+      },
+      "arrivalAirport": {
+        "name": "San Francisco International Airport",
+        "code": "SFO"
+      },
+      "departureDate": "02/01/2024 12:00",
+      "arrivalDate": "02/01/2024 15:30",
+      "price": 250.0
+    },
+    {
+      "id": "BA789",
+      "airline": "British Airways",
+      "departureCity": "London",
+      "arrivalCity": "Paris",
+      "departureAirport": {
+        "name": "London Heathrow Airport",
+        "code": "LHR"
+      },
+      "arrivalAirport": {
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG"
+      },
+      "departureDate": "03/01/2024 18:00",
+      "arrivalDate": "03/01/2024 20:30",
+      "price": 200.0
+    },
+    {
+      "id": "BA790",
+      "airline": "British Airways",
+      "departureCity": "London",
+      "arrivalCity": "Paris",
+      "departureAirport": {
+        "name": "London Heathrow Airport",
+        "code": "LHR"
+      },
+      "arrivalAirport": {
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG"
+      },
+      "departureDate": "03/01/2024 18:30",
+      "arrivalDate": "03/01/2024 21:00",
+      "price": 250.0
+    },
+    {
+      "id": "AA101",
+      "airline": "American Airlines",
+      "departureCity": "New York",
+      "arrivalCity": "Los Angeles",
+      "departureAirport": {
+        "name": "LaGuardia Airport",
+        "code": "LGA"
+      },
+      "arrivalAirport": {
+        "name": "Los Angeles International Airport",
+        "code": "LAX"
+      },
+      "departureDate": "05/01/2024 09:30",
+      "arrivalDate": "05/01/2024 12:30",
+      "price": 280.0
+    },
+    {
+      "id": "AF456",
+      "airline": "Air France",
+      "departureCity": "Paris",
+      "arrivalCity": "New York",
+      "departureAirport": {
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG"
+      },
+      "arrivalAirport": {
+        "name": "John F. Kennedy International Airport",
+        "code": "JFK"
+      },
+      "departureDate": "05/01/2024 14:00",
+      "arrivalDate": "05/01/2024 17:00",
+      "price": 220.0
+    },
+    {
+      "id": "EK456",
+      "airline": "Emirates",
+      "departureCity": "Dubai",
+      "arrivalCity": "New York",
+      "departureAirport": {
+        "name": "Dubai International Airport",
+        "code": "DXB"
+      },
+      "arrivalAirport": {
+        "name": "John F. Kennedy International Airport",
+        "code": "JFK"
+      },
+      "departureDate": "15/01/2024 10:00",
+      "arrivalDate": "15/01/2024  16:30",
+      "price": 400.0
+    },
+    {
+      "id": "LH789",
+      "airline": "Lufthansa",
+      "departureCity": "Frankfurt",
+      "arrivalCity": "Tokyo",
+      "departureAirport": {
+        "name": "Frankfurt Airport",
+        "code": "FRA"
+      },
+      "arrivalAirport": {
+        "name": "Tokyo Haneda Airport",
+        "code": "HND"
+      },
+      "departureDate": "15/01/2024 12:30",
+      "arrivalDate": "15/02/2024 06:45",
+      "price": 350.0
+    },
+    {
+      "id": "UA234",
+      "airline": "United Airlines",
+      "departureCity": "Chicago",
+      "arrivalCity": "Beijing",
+      "departureAirport": {
+        "name": "O'Hare International Airport",
+        "code": "ORD"
+      },
+      "arrivalAirport": {
+        "name": "Beijing Capital International Airport",
+        "code": "PEK"
+      },
+      "departureDate": "10/03/2024 14:45",
+      "arrivalDate": "11/03/2024 08:00",
+      "price": 320.0
+    },
+    {
+      "id": "QF567",
+      "airline": "Qantas",
+      "departureCity": "Sydney",
+      "arrivalCity": "Los Angeles",
+      "departureAirport": {
+        "name": "Sydney Airport",
+        "code": "SYD"
+      },
+      "arrivalAirport": {
+        "name": "Los Angeles International Airport",
+        "code": "LAX"
+      },
+      "departureDate": "05/04/2024 09:15",
+      "arrivalDate": "05/04/2024 15:45",
+      "price": 380.0
+    },
+    {
+      "id": "CX890",
+      "airline": "Cathay Pacific",
+      "departureCity": "Hong Kong",
+      "arrivalCity": "Vancouver",
+      "departureAirport": {
+        "name": "Hong Kong International Airport",
+        "code": "HKG"
+      },
+      "arrivalAirport": {
+        "name": "Vancouver International Airport",
+        "code": "YVR"
+      },
+      "departureDate": "18/05/2023 17:30",
+      "arrivalDate": "18/05/2023 20:00",
+      "price": 270.0
+    }
+  ]
+}
