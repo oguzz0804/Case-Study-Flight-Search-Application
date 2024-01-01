@@ -58,16 +58,20 @@ function App() {
             (flight) =>
               flight.departureAirport.code.toLowerCase().includes(departureAirport.toLowerCase()) &&
               flight.arrivalAirport.code.toLowerCase().includes(arrivalAirport.toLowerCase()) &&
-              parseInt(flight.departureDate.split("/", 2)) === departureDate.getDay()
+              parseInt(flight.departureDate.split("/")[0]) === departureDate.getDate() &&
+              parseInt(flight.departureDate.split("/")[1]) === (departureDate.getMonth() + 1)
           );
 
           setSearchResults(filteredResults.reverse());
+          console.log(departureDate.getDate())
         } else {
           const filteredResults = response.data.filter(
             (flight) =>
               flight.departureCity.toLowerCase().includes(departureAirport.toLowerCase()) &&
               flight.arrivalCity.toLowerCase().includes(arrivalAirport.toLowerCase()) &&
-              parseInt(flight.departureDate.split("/", 2)) === departureDate.getDay()
+              parseInt(flight.departureDate.split("/")[0]) === departureDate.getDate() &&
+              parseInt(flight.departureDate.split("/")[1]) === (departureDate.getMonth() + 1)
+
           );
           setSearchResults(filteredResults.reverse());
         }
